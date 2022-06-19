@@ -1,24 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // const input = document.getElementById("search");
-  // const form = document.getElementById("github-form");
-
-  // const searchUser = () => {
-  //     form.addEventListener("submit", dispaly);
-
-  //     function dispaly(event) {
-  //         event.preventDefault();
-
-  //     }
-  // function fetchData() {
-
-  //         .then((response) => response.json())
-  //         .then((json) => console.log(json))
-  //         .catch(err => console.log(err));
-  // }
   const gitform = document.getElementById("github-form");
 
   const list = document.getElementById("user-list");
-  //const userAction =
+  //const userAction
   gitform.addEventListener("submit", async (event) => {
     list.innerHTML = ""; //clear the content on each click
     event.preventDefault();
